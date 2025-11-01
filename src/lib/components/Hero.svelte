@@ -32,11 +32,11 @@
 			class="mb-6 transform text-4xl font-extrabold tracking-tight transition-all duration-700 ease-out sm:text-5xl lg:text-6xl
       {isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}"
 		>
-			<span class="block text-gray-900">Intellectual Property Office</span>
+			<span class="block text-gray-900">INTELLECTUAL PROPERTY OFFICE</span>
 			<span
 				class="block bg-gradient-to-r from-emerald-800 via-green-600 to-teal-700 bg-clip-text text-transparent"
 			>
-				(IPO) Nigeria
+				(IPO) NIGERIA
 			</span>
 		</h1>
 
