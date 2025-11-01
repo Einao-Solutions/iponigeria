@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Globe } from 'lucide-svelte';
-
+	import einao from '$lib/assets/einao.png';
 	const currentYear = new Date().getFullYear();
 
 	const quickLinks = [
@@ -109,7 +109,7 @@
 			</p>
 			<p class="mt-2 text-xs text-gray-400">Powered by Einao Solutions</p>
 			<img
-				src="src\lib\assets\einao.png"
+				src={einao}
 				alt="Einao Solutions logo"
 				class="mx-auto mt-3 h-8"
 				loading="lazy"

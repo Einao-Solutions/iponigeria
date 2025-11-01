@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import jumoke from '$lib/assets/jumoke.jpg';
 	let isVisible = true;
 </script>
 
@@ -119,7 +120,7 @@
 						class="group flex flex-col items-center rounded-xl border border-gray-100 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:shadow-md"
 					>
 						<img
-							src="src/lib/assets/jumoke.jpg"
+							src={jumoke}
 							alt="Hon. Jumoke Oduwole"
 							class="mb-4 h-24 w-24 rounded-full border-2 border-gray-200 object-cover transition-transform duration-300 group-hover:scale-105"
 							loading="lazy"
@@ -140,7 +141,7 @@
 						<img
 							src="/images/team/barr-jane-igwe.jpg"
 							alt="Barr. Jane Igwe"
-							class="mb-4 h-16 w-16 rounded-full border-2 border-gray-200 object-cover transition-transform duration-300 group-hover:scale-105"
+							class="mb-4 h-24 w-24 rounded-full border-2 border-gray-200 object-cover transition-transform duration-300 group-hover:scale-105"
 							loading="lazy"
 						/>
 						<h5 class="text-lg font-semibold text-gray-900">Barr. Jane Igwe</h5>
@@ -154,7 +155,7 @@
 						<img
 							src="/images/team/barr-shafiu-adamu-yauri.jpg"
 							alt="Barr. Shafiu Adamu Yauri"
-							class="mb-4 h-16 w-16 rounded-full border-2 border-gray-200 object-cover transition-transform duration-300 group-hover:scale-105"
+							class="mb-4 h-24 w-24 rounded-full border-2 border-gray-200 object-cover transition-transform duration-300 group-hover:scale-105"
 							loading="lazy"
 						/>
 						<h5 class="text-lg font-semibold text-gray-900">Barr. Shafiu Adamu Yauri</h5>

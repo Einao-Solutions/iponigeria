@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import ministry from '$lib/assets/ministry.png';
 
 	export let onLoginClick: () => void = () => {};
 
@@ -28,7 +29,7 @@
 			<!-- Brand / Logo -->
 			<a href="/" class="group flex items-center space-x-3">
 				<img
-					src="/src/lib/assets/ministry.png"
+					src={ministry}
 					alt="Nigerian Coat of Arms"
 					class="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105 md:h-50 md:w-50"
 					on:error={(e) => (e.currentTarget.style.display = 'none')}
