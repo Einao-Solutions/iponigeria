@@ -127,7 +127,7 @@
 						/>
 						<h5 class="text-lg font-semibold text-gray-900">Dr. Jumoke Oduwole MFR</h5>
 						<p class="mt-1 text-sm text-gray-600 italic">
-							Honourable Minister of Trade and Investment
+							Honourable Minister
 						</p>
 						<p class="mt-1 text-xs text-gray-500">
 							Federal Ministry of Industry, Trade, and Investment
@@ -145,7 +145,10 @@
 							loading="lazy"
 						/>
 						<h5 class="text-lg font-semibold text-gray-900">Barr. Jane Igwe</h5>
-						<p class="mt-1 text-sm text-gray-600 italic">Registrar, Patent and Design Registry</p>
+						<p class="mt-1 text-sm text-gray-600 italic">Registrar</p>
+						<p class="mt-1 text-xs text-gray-500">
+							Patent and Design Registry
+						</p>
 					</article>
 
 					<!-- Barr. Shafiu Adamu Yauri -->
@@ -159,7 +162,10 @@
 							loading="lazy"
 						/>
 						<h5 class="text-lg font-semibold text-gray-900">Barr. Shafiu Adamu Yauri</h5>
-						<p class="mt-1 text-sm text-gray-600 italic">Registrar, Trademark Registry</p>
+						<p class="mt-1 text-sm text-gray-600 italic">Registrar</p>
+						<p class="mt-1 text-xs text-gray-500">
+							Trademark Registry
+						</p>
 					</article>
 				</div>
 			</div>

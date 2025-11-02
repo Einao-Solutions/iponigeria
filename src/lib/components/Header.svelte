@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import ministry from '$lib/assets/ministry.png';
-
+	import cld from '$lib/assets/cld.png';
 	export let onLoginClick: () => void = () => {};
 
 	let isScrolled = false;
@@ -28,8 +28,15 @@
 		<div class="flex h-20 items-center justify-between">
 			<!-- Brand / Logo -->
 			<a href="/" class="group flex items-center space-x-3">
+				<img
+					src={cld}
+					alt="Commercial Law Department"
+					class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 md:h-12"
+					loading="lazy"
+					on:error={(e) => (e.currentTarget.style.display = 'none')}
+				/>
 				<!-- Stylized Text Logo -->
-				<!-- <div class="flex flex-col leading-tight">
+				<div class="hidden sm:flex flex-col leading-tight">
 					<span
 						class="text-2xl font-extrabold tracking-tight text-green-800 transition-colors group-hover:text-green-700 md:text-3xl"
 					>
@@ -40,14 +47,14 @@
 							NIGERIA
 						</span>
 					</span>
-	
-				</div> -->
-				<img
+				</div>
+				<!-- <img
 					src={ministry}
 					alt="Nigerian Coat of Arms"
 					class="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105 md:h-50 md:w-50"
 					on:error={(e) => (e.currentTarget.style.display = 'none')}
-				/>
+				/> -->
+				
 			</a>
 
 			<!-- Desktop Navigation -->
