@@ -79,7 +79,7 @@
 			Our Mandate
 		</h3>
 			<p class="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
-				The Intellectual Property Office (IPO) Nigeria is the official arm of the Federal Ministry
+				The Intellectual Property Office (IPO) Nigeria, of the Commercial Law Department, is the official arm of the Federal Ministry
 				of Industry, Trade and Investment, responsible for the registration and protection of
 				Trademarks, Patents, and Industrial Designs in Nigeria. Through our online intellectual
 				property portal, individuals, businesses, and innovators can file new applications, renew

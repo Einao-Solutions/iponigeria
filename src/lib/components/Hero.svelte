@@ -66,7 +66,7 @@
 				class="group relative rounded-2xl bg-gradient-to-r from-green-600 to-emerald-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-emerald-400/40"
 			>
 				<span class="relative flex items-center justify-center space-x-2">
-					<span>Register Now</span>
+					<span>Register</span>
 					<svg
 						class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
 						fill="none"

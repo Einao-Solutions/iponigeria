@@ -27,34 +27,35 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-20 items-center justify-between">
 			<!-- Brand / Logo -->
-			<a href="/" class="group flex items-center space-x-3">
-				<img
-					src={cld}
-					alt="Commercial Law Department"
-					class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 md:h-12"
-					loading="lazy"
-					on:error={(e) => (e.currentTarget.style.display = 'none')}
-				/>
-				<!-- Stylized Text Logo -->
-				<div class="hidden sm:flex flex-col leading-tight">
-					<span
-						class="text-2xl font-extrabold tracking-tight text-green-800 transition-colors group-hover:text-green-700 md:text-3xl"
-					>
-						IPO
-						<span
-							class="bg-gradient-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent"
-						>
-							NIGERIA
-						</span>
-					</span>
+			<a href="/" class="group flex items-center gap-3">
+				<!-- Logo Container with consistent sizing -->
+				<div class="flex items-center gap-2">
+					<img
+						src={ministry}
+						alt="Nigerian Coat of Arms"
+						class="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 md:h-14"
+						on:error={(e) => (e.currentTarget.style.display = 'none')}
+					/>
+					<div class="h-12 w-px bg-gray-300 md:h-14"></div>
+					<img
+						src={cld}
+						alt="Commercial Law Department"
+						class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 md:h-12"
+						loading="lazy"
+						on:error={(e) => (e.currentTarget.style.display = 'none')}
+					/>
 				</div>
-				<!-- <img
-					src={ministry}
-					alt="Nigerian Coat of Arms"
-					class="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105 md:h-50 md:w-50"
-					on:error={(e) => (e.currentTarget.style.display = 'none')}
-				/> -->
 				
+				<!-- Stylized Text Logo -->
+				<!-- <div class="flex flex-col leading-tight">
+					<span
+						class="text-xl font-extrabold tracking-tight text-green-800 transition-colors group-hover:text-green-700 sm:text-2xl md:text-3xl"
+					>
+						IPO<span
+							class="bg-gradient-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent"
+						>NIGERIA</span>
+					</span>
+				</div> -->
 			</a>
 
 			<!-- Desktop Navigation -->
@@ -76,27 +77,24 @@
 			<div class="flex items-center space-x-4">
 				<a
 					href="https://portal.iponigeria.com"
-					class="group relative overflow-hidden rounded-lg px-4 py-2 font-semibold text-white"
+					class="group relative inline-flex items-center gap-2 overflow-hidden rounded-xl bg-gradient-to-r from-green-600 to-emerald-600 px-6 py-2.5 font-semibold text-white shadow-lg shadow-green-600/30 transition-all duration-300 hover:shadow-xl hover:shadow-green-600/40 hover:-translate-y-0.5"
 				>
-					<div
-						class="absolute inset-0 bg-gradient-to-r from-green-700 to-green-600 transition-transform duration-300 group-hover:scale-105"
-					></div>
-					<span class="relative flex items-center space-x-2">
-						<span>Login</span>
+				
+					<span>Login</span>
 						<svg
-							class="h-4 w-4 transform transition-transform duration-300 group-hover:translate-x-1"
-							fill="none"
-							stroke="currentColor"
-							viewBox="0 0 24 24"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M13 7l5 5m0 0l-5 5m5-5H6"
-							/>
-						</svg>
-					</span>
+						class="h-4 w-4 transition-transform duration-300 group-hover:rotate-12"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"
+						/>
+					</svg>
+					<div class="absolute inset-0 -z-10 bg-gradient-to-r from-green-700 to-emerald-700 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
 				</a>
 
 				<!-- Mobile Menu Button -->

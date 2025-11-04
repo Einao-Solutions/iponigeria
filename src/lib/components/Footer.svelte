@@ -1,13 +1,15 @@
 <script lang="ts">
 	import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Globe } from 'lucide-svelte';
 	import einao from '$lib/assets/einao.png';
+		import ministry from '$lib/assets/ministry.png';
+	import cld from '$lib/assets/cld.png';
 	const currentYear = new Date().getFullYear();
 
 	const quickLinks = [
 		{ label: 'Home', href: '/' },
 		{ label: 'About Us', href: '/about' },
 		{ label: 'Our Services', href: '/services' },
-		// { label: 'Resources', href: '/resources' },
+		 { label: 'Resources', href: '/resources' },
 		{ label: 'FAQs', href: '/faqs' }
 	];
 
@@ -100,8 +102,27 @@
 					{/each}
 				</ul>
 			</div>
+			<!-- <div class="inline-flex items-center justify-center bg-white rounded p-1 shadow-sm">
+				<img
+					src={ministry}
+					alt="Nigerian Coat of Arms"
+					class="h-12 w-12 object-contain transition-transform duration-300 group-hover:scale-105 md:h-50 md:w-50"
+					on:error={(e) => (e.currentTarget.parentElement.style.display = 'none')}
+				/>
+			</div>
+		<div class="inline-flex items-center justify-center bg-white rounded p-1 shadow-sm"></div>
+			<div class="inline-flex items-center justify-center bg-white rounded p-1 shadow-sm">
+				<img
+					src={cld}
+					alt="Commercial Law Department"
+					class="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105 md:h-12"
+					loading="lazy"
+					on:error={(e) => (e.currentTarget.parentElement.style.display = 'none')}
+				/>
+			</div> -->
 		</div>
 
+		<div class="inline-flex items-center justify-center bg-white  shadow-sm"></div>
 		<!-- Divider -->
 		<div class="mt-12 border-t border-green-800 pt-8 text-center">
 			<p class="text-sm text-gray-300">
